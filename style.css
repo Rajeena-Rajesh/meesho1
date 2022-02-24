@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    
+}
+
+.container{
+    
+    display: flex;
+      justify-content:space-evenly
+     }
+.search input{
+   
+    margin-top: 14px;
+    width: 300px;
+    height: 49px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+}
+.one,.two,.three,.four{
+    
+    font-size:10px;
+    justify-content:flex-end;
+  
+     
+   }
+   .one{
+       margin-left: 30px;
+    
+   }
+   .links-container{
+    width: 100%;  
+    display: flex;
+    padding: 10px ;
+    justify-content:flex-start ;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    border-bottom:1px solid #d1d1d1;
+}
+
+.link{
+    
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+        color: black;
+    
+}
+
+.link:hover{
+   
+    color: rgb(244, 51, 151);
+}
+ .content{
+   
+    display:flex;
+ }
+
+.content{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+
+    }
+
+.con1{
+    width: 51%;
+    flex-direction: column;
+  margin-left: 100px;
+}
+.con2{
+ width:50%; 
+}
+.sub-heading{
+    font-size: 38px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+ .img1{
+    padding-left: 317px;
+    padding-top: 128px;
+ }
+ .middle{
+    
+color: rgb(32, 32, 36);
+    
+text-align: center;
+ }
+ 
+ .image{
+  margin:20px;
+  padding-left: 100px;
+}
+ .last-section{
+     display:flex;
+     justify-content: space-around;
+ }
+ .first{
+    color: rgb(51, 51, 51);
+     flex-direction: column;
+     font-family: "Mier demi";
+ }
+ .a{
+     font-weight:bold;
+ }
+ .b{font-family: "Mier demi";
+    color:rgb(102, 102, 102);  
+ }
+ 
+ 
+ .second,.third{
+     color:rgb(102, 102, 102);
+     font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier demi";
+ }
+ 
+.fifth{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Mier bold";
+}
+.foot{
+    font-family: "Mier demi";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(102, 102, 102);
+}
+.last_portion{
+    color: rgb(244, 51, 151);
+   
+}
